@@ -1,0 +1,11 @@
+table#tlayout{
+    border: none;
+    border-collapse: separate;
+    background: white;
+}
+
+
+div#toptitle {
+    padding-bottom: 0.2em;
+    margin-bottom: 1.5em;
+}
