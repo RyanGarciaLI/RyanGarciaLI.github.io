@@ -4,13 +4,22 @@ table#tlayout{
     background: white;
 }
 
-
 div#toptitle {
     padding-bottom: 0.2em;
     margin-bottom: 1.5em;
 }
 
-#layout-content div#toptitle h1{
+#layout-content {
+    padding-top: 0.0em;
+    padding-left: 1.0em;
+    padding-right: 1.0em;
+    border: none;
+    background: white;
+    text-align: left;
+    vertical-align: top;
+}
+
+#layout-content, div#toptitle h1{
     margin-bottom: 0.0em;
     padding-bottom: 0.1em;
     padding-top: 0;
