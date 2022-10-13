@@ -133,6 +133,15 @@ a:hover {
     border-bottom: 1px gray dotted;
 }
 
+/* fonts */
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bolder;
+}
+
 
 /* ------------- Class ------------- */
 /* layout content */
@@ -188,6 +197,13 @@ div#footer a{
 }
 
 div#footer-text{
-    float: left;
     padding-bottom: 8px;
+    text-align: center;
+}
+
+/* slogan */
+div#slogan {
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    text-align: right;
 }
