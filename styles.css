@@ -107,10 +107,10 @@ div.section > p:last-child { /* last child that is p in a dive */
     margin-bottom: 1.3em;
 }
 
-/* table */
+/* table
 table + table {
     margin-top: 1em;
-}
+} */
 
 table#tlayout{
     border: none;
