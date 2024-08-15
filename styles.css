@@ -27,6 +27,69 @@ body {
     max-width: 960px;
 }
 
+/* body {
+    font-size: 16px;
+    line-height: 1.6;
+} */
+
+
+
+/* Styles for larger screens */
+
+@media (min-width: 768px) {
+    body {
+      font-size: 18px;
+    }
+
+    .section {
+      margin: 20px auto;
+      width: 80%;
+    }
+  }
+
+  
+/*Styles for small screens (mobile devices)*/
+@media (max-width: 767px) {
+    table {
+        width: 100%;
+    }
+
+    td {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    td img {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    h1, h2, h3 {
+        font-size: 1.2em;
+    }
+}
+
+
+.icon {
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom:-3px;
+    object-fit: contain;
+}
+
+/* Ensure selfie2 remains unaffected */
+.selfie2 {
+    height: auto; /* or any specific value you prefer */
+    object-fit: contain;
+    max-width: 100%;
+    display: block;  /* Ensure it takes up the full width available */
+    margin: 0 auto;
+}
+
 /* ------------- build-in ------------- */
 /* header */
 h1, h2, h3 {
@@ -107,10 +170,10 @@ div.section > p:last-child { /* last child that is p in a dive */
     margin-bottom: 1.3em;
 }
 
-/* table
+table
 table + table {
     margin-top: 1em;
-} */
+}
 
 table#tlayout{
     border: none;
