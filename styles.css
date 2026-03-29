@@ -50,8 +50,17 @@ body {
   
 /*Styles for small screens (mobile devices)*/
 @media (max-width: 767px) {
+    body {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
     table {
         width: 100%;
+        border-spacing: 0 15px !important;
     }
 
     td {
@@ -61,12 +70,47 @@ body {
     }
 
     td img {
-        width: 80%;
+        width: 90%;
         margin: 10px auto;
+        max-width: 200px;
     }
 
     h1, h2, h3 {
-        font-size: 1.2em;
+        font-size: 1.1em;
+    }
+
+    h1 {
+        font-size: 1.4em;
+    }
+
+    .icon {
+        height: 25px;
+        width: 25px;
+        margin-right: 8px;
+    }
+
+    .section {
+        margin: 15px 0;
+    }
+
+    #toptitle {
+        text-align: center;
+    }
+
+    li {
+        margin-top: 0.6em;
+        font-size: 0.95em;
+    }
+
+    td[width="270"] {
+        width: 100% !important;
+    }
+
+    /* Make project images responsive */
+    table img {
+        width: 100% !important;
+        max-width: 250px;
+        height: auto;
     }
 }
 
